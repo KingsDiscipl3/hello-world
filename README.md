@@ -1,2 +1,2 @@
 # hello-world
-The first repository Git helps learn.
+The first repository Git helps to learn.
