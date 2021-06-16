@@ -44,6 +44,28 @@ int InputOutputExample001()
   return 0;
 }  
 
+// User input multiplication function
+int UserMultiplication001()
+{
+  cout << "This function will help multiply 2 numbers" << endl;
+  
+  cout << "Enter the first number: ";
+  int firstNumber = 0;
+  cin >> firstNumber;
+  
+  cout << "Enter the second number: ";
+  int secondNumber = 0;
+  cin >> secondNumber;
+  
+  // Multiply two numbers and store the result in a variable
+  int multiplicationResult = firstNumber * secondNumber;
+  
+  cout << firstNumber << " X " << secondNumber;
+  cout << " = " << multiplicationResult << endl;
+  
+  return 0;
+}
+
 // Start of the program: function block main()
 int main()
 {
@@ -51,6 +73,7 @@ int main()
 // Functions called with return to exit
   return DemoConsoleOutput001();
   return HelloWorld();
+  return InputOutputExample001();
   
 // Write to the screen
   std::cout << "Hello World" << std::endl;
