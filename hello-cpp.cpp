@@ -74,6 +74,7 @@ int main()
   return DemoConsoleOutput001();
   return HelloWorld();
   return InputOutputExample001();
+  return UserMultiplication001()
   
 // Write to the screen
   std::cout << "Hello World" << std::endl;
